@@ -1,26 +1,37 @@
-# Scientific Programming with Python - TU Wien Assignments
+# Scientific Programming with Python - TU Wien Coursework
 
-Welcome to my repository for the 'Scientific Programming with Python' course assignments at TU Wien. These projects reflect a comprehensive engagement with Python's capabilities in scientific computing, from dynamic data visualization to the analysis of molecular structures.
+Welcome to my collection of assignments from the 'Scientific Programming with Python' course at TU Wien. This repository showcases a variety of Python's applications in scientific computing and data analysis, reflecting my skills in leveraging Python to tackle diverse scientific challenges.
 
 ## Course Overview
 
-The course emphasizes the development of Python programming skills for scientific research applications. It covers a wide array of topics, including but not limited to data analysis, visualization, and the manipulation of complex datasets.
+The course focused on harnessing Python's capabilities for scientific purposes, including data visualization, symbolic mathematics, and manipulating complex datasets.
 
-## Assignments
+## Assignments Overview
 
-### Assignment 1: Dynamic Plotting and Visualization
+### Assignment 1: Dynamic Visualization and Data Analysis
 
-- **Summary**: Implemented an interactive plotter for polynomial functions using `ipywidgets`. This assignment demonstrates the ability to create dynamic visualizations that respond to user input.
-- **Key Concepts**: `matplotlib`, `numpy`, dynamic plotting with `ipywidgets`.
+- **Summary**: Created interactive plots for polynomial functions using `ipywidgets` and analyzed datasets with `pandas`, visualizing the results with `matplotlib` and `seaborn`.
+- **Key Concepts**: Interactive plotting, data cleaning, exploratory data analysis (EDA), statistical analysis.
 
-### Assignment 2: Visualizing Vienna's Subway System
+### Assignment 2: RGB Color Intensity Adjustment and Symbolic Mathematics
 
-- **Summary**: Developed a program to plot the routes of Vienna's subway lines on a map of the city. This involved parsing and visualizing geographic data from CSV files.
-- **Key Concepts**: Data parsing, geographic visualization, `pandas`, `matplotlib`.
+- **Task 1 (RGB Color Adjustment)**: Developed a tool to dynamically adjust the RGB color intensity of an image using `ipywidgets`, with live updates displayed via `matplotlib`.
+- **Task 2 (Symbolic Mathematics)**: Utilized `sympy` to compute the area under curves defined by symbolic expressions, further plotting these functions and calculating the bounded area above the x-axis.
 
-### Assignment 3: Data Intersection
+### Assignment Methodologies
 
-- **Summary**: Created a function to compute the intersection of two datasets based on student IDs, merging data from different exams.
-- **Key Concepts**: Data manipulation, efficient search and merge algorithms.
+- **Interactive Data Visualization**: Employed `ipywidgets` for creating dynamic, user-interactive visualizations for real-time data exploration.
+- **Image Processing**: Adjusted and visualized image color intensities in real-time, demonstrating the manipulation of image data.
+- **Symbolic Mathematics**: Applied `sympy` for solving complex mathematical problems symbolically, including finding roots of equations and integrating functions to calculate areas under curves.
 
-###
+## Technical Skills
+
+- **Languages and Libraries**: Proficient in Python, with extensive use of libraries such as `numpy`, `pandas`, `matplotlib`, `seaborn`, `ipywidgets`, and `sympy`.
+- **Analytical Skills**: Strong capabilities in analyzing and visualizing complex datasets, symbolic mathematics, and algorithmic problem-solving.
+
+## Running the Notebooks
+
+Ensure Python is installed along with necessary libraries. Install required packages via:
+
+```bash
+pip install numpy pandas matplotlib seaborn ipywidgets sympy
