@@ -1,30 +1,26 @@
-# Scientific Programming with Python - Course Assignments
+# Scientific Programming with Python - TU Wien Assignments
 
-This repository houses my work for the "Scientific Programming with Python" course undertaken at TU Wien. It includes a series of assignments that demonstrate the application of Python in scientific programming, emphasizing data analysis, visualization, and problem-solving in an engineering context.
+Welcome to my repository for the 'Scientific Programming with Python' course assignments at TU Wien. These projects reflect a comprehensive engagement with Python's capabilities in scientific computing, from dynamic data visualization to the analysis of molecular structures.
 
-## Overview
+## Course Overview
 
-The assignments are designed to test various aspects of Python programming, from basic syntax and data structures to more advanced concepts such as data manipulation with Pandas, numerical analysis with Numpy, and data visualization with Matplotlib and Seaborn. These projects were completed as part of my master's curriculum, showcasing both foundational and advanced skills in Python programming.
+The course emphasizes the development of Python programming skills for scientific research applications. It covers a wide array of topics, including but not limited to data analysis, visualization, and the manipulation of complex datasets.
 
-### Assignment 1: Data Analysis and Visualization
+## Assignments
 
-- **Objective**: Analyze a dataset to extract meaningful insights and visualize the results using Python's data analysis libraries.
-- **Key Concepts**: Data cleaning, exploratory data analysis, statistical analysis, data visualization.
+### Assignment 1: Dynamic Plotting and Visualization
 
-### Assignment 2: Optimization and Machine Learning
+- **Summary**: Implemented an interactive plotter for polynomial functions using `ipywidgets`. This assignment demonstrates the ability to create dynamic visualizations that respond to user input.
+- **Key Concepts**: `matplotlib`, `numpy`, dynamic plotting with `ipywidgets`.
 
-- **Objective**: Implement optimization algorithms and apply machine learning techniques to solve a specific engineering problem.
-- **Key Concepts**: Machine learning algorithms, optimization techniques, model evaluation, predictive modeling.
+### Assignment 2: Visualizing Vienna's Subway System
 
-## Skills and Tools
+- **Summary**: Developed a program to plot the routes of Vienna's subway lines on a map of the city. This involved parsing and visualizing geographic data from CSV files.
+- **Key Concepts**: Data parsing, geographic visualization, `pandas`, `matplotlib`.
 
-- **Programming Language**: Python
-- **Libraries**: Numpy, Pandas, Matplotlib, Seaborn, scikit-learn
-- **Concepts**: Data Analysis, Machine Learning, Optimization, Visualization
+### Assignment 3: Data Intersection
 
-## Installation and Usage
+- **Summary**: Created a function to compute the intersection of two datasets based on student IDs, merging data from different exams.
+- **Key Concepts**: Data manipulation, efficient search and merge algorithms.
 
-To run these notebooks, ensure you have Python installed on your system along with the necessary libraries. You can install the required packages using the following command:
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn
+###
